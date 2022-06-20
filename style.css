@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 60%;
+}
+p {
+    font-size: 20px;
+}
+.logo {
+    width: 40%;
+}
+.banner {
+    background-image: url(background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    padding: 100px;
+    
+}
+.banner_bottom {
+    background-color: rgb(215, 209, 209);
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+    
+    border: 2px solid;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    /* text-align: center; */
+    justify-content: center;
+}
+button {
+    height: 40px;
+    width: 180px;
+    /* position: absolute; right: 640px; top: 605px; */
+    background-color: aqua;
+    border: none;
+    margin: 18px;
+}
+.body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-gap: 90px;
+    padding: 150px;
+    /* height: 200px; */
+    /* justify-content: center; */
+}
+.body_1 {
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(239, 239, 239);
+    
+}
+.bold {
+    font-weight: bold;
+    font-size:25px;
+    color: rgb(9, 9, 58);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.content_background {
+    background-color: rgb(243, 244, 244);
+    padding: 120px;
+}
+.background_image {
+    background-image: url(clem.jpeg);
+    background-repeat: none;
+    /* background-color: blueviolet; */
+    width: 40%;
+    height: 120px;
+    padding-top: 650px;
+    padding-left: 50px;
+    /* margin: 120px; */
+    color: white;
+
+}
+.cloud_developer {
+    padding-top: 70px;
+}
+.career_training {
+    display: flex;
+    margin: 170px;
+    margin-top: 40px;
+    justify-content: space-between;
+
+}
+.icon_career {
+    display: flex;
+    gap: 40px;
+    background-color: rgba(237, 235, 235, 0.678);
+    /* border: 1px solid; */
+    margin: 20px;
+    padding: 20px;
+}
+.heading {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(18, 18, 94);
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29, 9, 80);
+    height: 250px;
+    padding: 130px;
+    color:white;
+}
